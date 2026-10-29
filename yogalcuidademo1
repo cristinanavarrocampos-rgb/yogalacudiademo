@@ -1,0 +1,1417 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yoga Alcudia | Estudio de yoga en Alcúdia, Mallorca</title>
+<meta name="description" content="Clases de yoga en Alcúdia para todos los niveles: Hatha, Hatha Flow, Aerial, Power, Restaurativo y Sivananda. Reserva tu clase con el profesor y a la hora que prefieras.">
+<meta property="og:title" content="Yoga Alcudia | Estudio de yoga en Alcúdia, Mallorca">
+<meta property="og:description" content="Clases para todos los niveles, grupos reducidos y profesores titulados. Reserva por WhatsApp en un minuto.">
+<meta property="og:image" content="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2020/04/dsc_0070-2.jpg?w=1200&ssl=1">
+<meta property="og:locale" content="es_ES">
+<meta name="theme-color" content="#1F3A34">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ExerciseGym",
+  "name": "Yoga Alcudia",
+  "telephone": "+34 610 088 688",
+  "email": "yogalcudia@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Carrer Gregal, 11 A",
+    "postalCode": "07400",
+    "addressLocality": "Alcúdia",
+    "addressRegion": "Illes Balears",
+    "addressCountry": "ES"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 39.8529923, "longitude": 3.1152666 },
+  "sameAs": [
+    "https://www.facebook.com/yogalcudia",
+    "https://www.instagram.com/yogaalcudia",
+    "https://t.me/yogalcudia"
+  ]
+}
+</script>
+<style>
+:root{
+  --stone:#ECEAE4;
+  --paper:#F7F6F2;
+  --ink:#1B2422;
+  --pine:#1F3A34;
+  --pine-2:#2C4E46;
+  --brass:#9C7A45;
+  --brass-soft:#E8DCC6;
+  --muted:#5B6561;
+  --line:#D6D2C8;
+  --ok:#2F6B4F;
+  --radius-s:4px;
+  --radius-m:10px;
+  --serif:"Fraunces", Georgia, "Times New Roman", serif;
+  --sans:"Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --wrap:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--stone);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--brass);outline-offset:3px;border-radius:2px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+@media (max-width:640px){.wrap{padding:0 16px}}
+h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em;line-height:1.12;margin:0}
+h2{font-size:clamp(32px,4.4vw,52px)}
+h3{font-size:24px}
+p{margin:0 0 1em}
+.lead{font-size:19px;color:var(--muted);max-width:60ch}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* Botones */
+.btn{display:inline-flex;align-items:center;gap:10px;justify-content:center;text-align:center;font:600 15px/1.3 var(--sans);padding:15px 22px;border-radius:var(--radius-s);text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-primary{background:var(--pine);color:#fff}
+.btn-primary:hover{background:var(--pine-2)}
+.btn-light{background:#fff;color:var(--pine)}
+.btn-light:hover{background:var(--brass-soft)}
+.btn-ghost{border-color:currentColor;color:inherit;background:transparent}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.btn-wa{background:#1E7A4F;color:#fff}
+.btn-wa:hover{background:#17633F}
+.btn-line{border-color:var(--line);background:#fff;color:var(--ink)}
+.btn-line:hover{border-color:var(--pine)}
+
+/* Barra superior */
+.topbar{background:var(--pine);color:#DCE5E1;font-size:14px}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:40px;flex-wrap:wrap}
+.topbar a{text-decoration:none;color:#fff}
+.topbar a:hover{text-decoration:underline}
+.top-contact{display:flex;gap:22px;flex-wrap:wrap}
+.top-contact a{display:inline-flex;align-items:center;gap:8px}
+.top-contact svg{width:15px;height:15px}
+.socials{display:flex;gap:4px}
+.socials a{display:grid;place-items:center;width:34px;height:34px;border-radius:50%}
+.socials a:hover{background:rgba(255,255,255,.12);text-decoration:none}
+.socials svg{width:17px;height:17px;fill:currentColor}
+@media (max-width:720px){.topbar .socials{display:none}.top-contact{gap:16px}}
+
+/* Cabecera */
+header.site{position:sticky;top:0;z-index:40;background:rgba(247,246,242,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:20px}
+.brand{display:flex;flex-direction:column;text-decoration:none;line-height:1}
+.brand b{font:500 26px/1 var(--serif);letter-spacing:-.01em;color:var(--pine)}
+.brand span{white-space:nowrap;font-size:12.5px;color:var(--muted);margin-top:5px;letter-spacing:.02em}
+nav.main ul{display:flex;gap:24px;list-style:none;margin:0;padding:0}
+nav.main a{white-space:nowrap;text-decoration:none;font-weight:500;font-size:15px;color:var(--ink);padding:6px 0;border-bottom:1px solid transparent}
+nav.main a:hover{border-bottom-color:var(--brass)}
+.menu-btn{display:none;background:none;border:1px solid var(--line);border-radius:var(--radius-s);width:44px;height:44px;cursor:pointer}
+.menu-btn svg{width:22px;height:22px}
+@media (max-width:1180px){
+  nav.main{position:fixed;inset:72px 0 auto 0;background:var(--paper);border-bottom:1px solid var(--line);display:none}
+  nav.main.open{display:block}
+  nav.main ul{flex-direction:column;gap:0;padding:8px 16px 18px}
+  nav.main a{display:block;padding:14px 0;border-bottom:1px solid var(--line);font-size:17px}
+  .menu-btn{display:grid;place-items:center}
+  header.site .btn-primary{display:none}
+}
+
+/* Portada: foto real del estudio en 3D con panel de cristal */
+.hero{position:relative;color:#fff;background:#24332F url('https://i0.wp.com/yogalcudia.com/wp-content/uploads/2020/04/dsc_0070-2.jpg?w=1600&ssl=1') 60% 50%/cover no-repeat;min-height:max(640px, calc(100svh - 112px));display:flex;align-items:center;overflow:hidden;isolation:isolate}
+#photo3d{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:-2;opacity:0;transition:opacity 1.4s ease}
+#photo3d.on{opacity:1}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(120% 90% at 35% 45%,rgba(12,26,22,0) 0%,rgba(12,26,22,.3) 60%,rgba(12,26,22,.65) 100%),linear-gradient(270deg,rgba(12,26,22,.42) 0%,rgba(12,26,22,0) 55%)}
+@media (min-width:901px){.hero .wrap{display:flex;justify-content:flex-end}.glass{max-width:600px}}
+.hero .wrap{position:relative;width:100%;padding-top:clamp(56px,8vw,96px);padding-bottom:clamp(56px,8vw,96px)}
+.glass{position:relative;max-width:640px;padding:clamp(30px,4vw,54px) clamp(26px,4vw,56px) clamp(30px,4vw,50px);border-radius:22px;
+  background:linear-gradient(135deg,rgba(255,255,255,.16) 0%,rgba(255,255,255,.06) 45%,rgba(232,214,174,.08) 100%);
+  -webkit-backdrop-filter:blur(22px) saturate(1.25) brightness(.92);backdrop-filter:blur(22px) saturate(1.25) brightness(.92);
+  border:1px solid rgba(255,255,255,.22);box-shadow:inset 0 1px 0 rgba(255,255,255,.35),inset 0 0 0 1px rgba(232,214,174,.12),0 40px 80px -40px rgba(5,14,12,.75)}
+.glass::before{content:"";position:absolute;left:clamp(26px,4vw,56px);top:0;width:84px;height:2px;background:linear-gradient(90deg,#E8D6AE,rgba(232,214,174,0))}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.glass{background:rgba(18,36,31,.78)}}
+.hero h1{font-size:clamp(44px,6.4vw,84px);font-weight:300;letter-spacing:-.025em;line-height:1.02;max-width:11ch}
+.hero .sign{display:block;font:italic 300 clamp(19px,2vw,24px)/1.3 var(--serif);color:#EBDDBB;margin-top:16px;letter-spacing:0}
+.hero p.sub{font-size:clamp(17px,1.7vw,19.5px);line-height:1.6;max-width:44ch;margin:24px 0 32px;color:rgba(255,255,255,.9)}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+.hero .btn-ghost{border-color:rgba(255,255,255,.6);background:rgba(255,255,255,.06)}
+.seal{display:flex;align-items:center;gap:14px;margin-top:30px;padding-top:24px;border-top:1px solid rgba(255,255,255,.18);font-size:13.5px;line-height:1.35;color:rgba(255,255,255,.88)}
+.seal img{width:48px;height:48px;filter:invert(1);mix-blend-mode:screen;opacity:.92}
+.seal b{display:block;font:400 16px/1.2 var(--serif);color:#fff}
+@media (max-width:760px){
+  .hero{align-items:flex-end;background-position:60% 40%}
+  .hero::before{background:linear-gradient(0deg,rgba(12,26,22,.6) 0%,rgba(12,26,22,.1) 60%)}
+  .hero .wrap{padding-top:260px;padding-bottom:16px}
+  .glass{border-radius:18px;padding:26px 22px 24px}
+  .hero h1{font-size:40px}
+  .hero .sign{font-size:18px;margin-top:10px}
+  .hero p.sub{font-size:16px;margin:16px 0 22px}
+  .hero-ctas .btn{flex:1 1 auto;justify-content:center}
+  .seal{margin-top:22px;padding-top:18px}
+  .seal img{width:40px;height:40px}
+}
+
+/* Secciones */
+section{padding:clamp(72px,9vw,120px) 0}
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:56px}
+.sec-head .lead{margin:0}
+@media (max-width:820px){.sec-head{grid-template-columns:1fr;gap:18px;margin-bottom:36px}}
+.bg-paper{background:var(--paper)}
+
+/* Autoridad */
+.creds{background:#13241F;color:#C9D5D0;padding:0}
+.creds .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.creds div.c{padding:26px 22px;border-left:1px solid rgba(255,255,255,.1);font-size:14.5px}
+.creds div.c:first-child{border-left:0;padding-left:0}
+.creds b{display:block;font:400 22px/1.2 var(--serif);color:#fff;margin-bottom:4px}
+@media (max-width:860px){.creds .wrap{grid-template-columns:1fr 1fr}.creds div.c{padding:20px 16px!important;border-left:0;border-top:1px solid rgba(255,255,255,.1)}}
+.method{display:grid;grid-template-columns:repeat(3,1fr);gap:0;counter-reset:m}
+.method li{list-style:none;padding:0 32px 0 0;margin-right:32px;border-right:1px solid var(--line)}
+.method li:last-child{border-right:0;margin-right:0}
+.method .num{font:300 64px/1 var(--serif);color:var(--brass);display:block;margin-bottom:18px}
+.method h3{margin-bottom:10px}
+.method p{color:var(--muted);font-size:16px}
+.method-ol{margin:0;padding:0}
+@media (max-width:860px){.method{grid-template-columns:1fr;gap:32px}.method li{border-right:0;margin:0;padding:0}}
+
+/* 3D suave en tarjetas */
+.tilt{transform-style:preserve-3d;transition:transform .35s cubic-bezier(.2,.7,.2,1), box-shadow .35s;will-change:transform}
+.tilt.is-tilting{transition:transform .08s linear, box-shadow .35s;box-shadow:0 30px 60px -30px rgba(15,30,26,.45)}
+
+/* Regalo y empresas */
+.gift{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:start}
+@media (max-width:900px){.gift{grid-template-columns:1fr;gap:32px}}
+.voucher{position:relative;aspect-ratio:1.6/1;border-radius:14px;background:linear-gradient(135deg,#1F3A34 0%,#2C4E46 55%,#5A4A2C 100%);color:#fff;padding:30px 32px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:0 40px 70px -40px rgba(15,30,26,.7);overflow:hidden}
+.voucher::after{content:"";position:absolute;right:-60px;top:-60px;width:240px;height:240px;border-radius:50%;border:1px solid rgba(232,220,198,.35)}
+.voucher::before{content:"";position:absolute;right:-20px;top:-20px;width:160px;height:160px;border-radius:50%;border:1px solid rgba(232,220,198,.25)}
+.voucher .vb{font:500 24px var(--serif)}
+.voucher .vt{font:300 clamp(30px,3.6vw,44px)/1.05 var(--serif)}
+.voucher .vp{font:300 clamp(36px,4.4vw,54px)/1 var(--serif);color:#E2CFA6}
+.voucher .vf{display:flex;justify-content:space-between;align-items:end;gap:12px;font-size:14px;color:#D3DDD9}
+.gift-form .field{margin-bottom:14px}
+.biz{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+@media (max-width:860px){.biz{grid-template-columns:1fr}}
+.biz article{background:#fff;border:1px solid var(--line);border-radius:var(--radius-m);padding:34px}
+.biz h3{font-size:30px;margin-bottom:12px}
+.biz p{color:var(--muted)}
+.biz ul{margin:0 0 24px;padding-left:18px;color:var(--ink);font-size:16px}
+.biz li{margin-bottom:6px}
+.pr .what .per{display:block;font-size:13.5px;color:var(--brass);font-weight:600;margin-top:2px}
+.pr .what .best{display:inline-block;font-size:12px;font-weight:700;color:#fff;background:var(--brass);padding:3px 9px;border-radius:999px;margin-left:8px;vertical-align:2px}
+.upsell{font-size:14px;background:#EEF3F1;border:1px solid #C9D7D2;border-radius:var(--radius-s);padding:12px 14px;margin:-4px 0 16px}
+.upsell label{display:flex;gap:10px;align-items:flex-start;margin-top:8px;font-weight:600;cursor:pointer}
+.upsell input{width:18px;height:18px;min-height:0;margin-top:2px;flex:none;accent-color:var(--pine)}
+
+/* Encuentra tu clase */
+.needs{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+.need{padding:30px 28px 32px 0;border-bottom:1px solid var(--line)}
+.need:not(:nth-child(3n)){border-right:1px solid var(--line)}
+.need:nth-child(3n+2),.need:nth-child(3n){padding-left:28px}
+.need h3{font-size:23px;margin-bottom:10px}
+.need p{color:var(--muted);margin-bottom:14px;font-size:16px}
+.need .recs{font-size:14.5px;font-weight:600;color:var(--pine)}
+.need button{margin-top:14px;background:none;border:0;padding:0;font:600 15px var(--sans);color:var(--brass);cursor:pointer;text-decoration:underline;text-underline-offset:4px}
+@media (max-width:900px){.needs{grid-template-columns:1fr 1fr}.need{padding:26px 20px 26px 0!important;border-right:0!important}.need:nth-child(odd){border-right:1px solid var(--line)!important}.need:nth-child(even){padding-left:20px!important}}
+@media (max-width:600px){.needs{grid-template-columns:1fr}.need{padding:24px 0!important;border-right:0!important}}
+
+/* Estilos */
+.styles{display:grid;grid-template-columns:1fr 1fr;gap:0 64px}
+.style{display:grid;grid-template-columns:132px 1fr auto;gap:6px 22px;padding:28px 0;border-top:1px solid var(--line);align-items:start}
+.style .ph{grid-row:1/3;width:132px;aspect-ratio:4/3;border-radius:8px;overflow:hidden;background:#D9D5CB}
+.style .ph img{width:100%;height:100%;object-fit:cover}
+.style h3{font-size:26px;align-self:center}
+.style p{grid-column:2/-1;color:var(--muted);margin:2px 0 0;font-size:16px}
+@media (max-width:520px){.style{grid-template-columns:92px 1fr;gap:6px 16px}.style .ph{width:92px;grid-row:1/2}.style .lvl{grid-column:2;justify-self:start}.style p{grid-column:1/-1}}
+.style .where{grid-column:1/-1;font-size:14px;color:var(--ink);margin-top:6px}
+.lvl{align-self:center;font-size:13px;font-weight:600;padding:5px 11px;border-radius:999px;white-space:nowrap;border:1px solid}
+.lvl-suave{color:#35603F;border-color:#AFC9B4;background:#EEF4EF}
+.lvl-todos{color:var(--pine);border-color:#B7C7C2;background:#EEF3F1}
+.lvl-inter{color:#7A5A23;border-color:#D9C49C;background:#F7F0E2}
+.lvl-avanz{color:#7B3A2B;border-color:#DDB3A7;background:#F7ECE8}
+@media (max-width:820px){.styles{grid-template-columns:1fr}}
+
+/* Calendario */
+#reservar{background:var(--pine);color:#fff}
+#reservar .lead{color:#CCD8D3}
+.tabs{display:inline-flex;background:rgba(255,255,255,.08);border-radius:var(--radius-s);padding:4px;margin-bottom:28px}
+.tabs button{font:600 15px var(--sans);color:#D7E1DD;background:none;border:0;padding:11px 18px;border-radius:3px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:#fff;color:var(--pine)}
+.booking{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:28px;align-items:start}
+@media (max-width:1020px){.booking{grid-template-columns:1fr}}
+.cal{background:var(--paper);color:var(--ink);border-radius:var(--radius-m);overflow:hidden}
+.cal-bar{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:18px 20px;border-bottom:1px solid var(--line)}
+.week-nav{display:flex;align-items:center;gap:8px}
+.week-nav button{width:40px;height:40px;border-radius:var(--radius-s);border:1px solid var(--line);background:#fff;cursor:pointer;display:grid;place-items:center}
+.week-nav button:disabled{opacity:.35;cursor:not-allowed}
+.week-nav button svg{width:18px;height:18px}
+.week-label{font:500 19px var(--serif);min-width:190px;text-align:center}
+.filters{display:flex;gap:10px;flex-wrap:wrap}
+select,input,textarea{font:500 15px var(--sans);color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:var(--radius-s);padding:10px 12px;min-height:44px;width:100%}
+.filters select{width:auto}
+select:focus,input:focus,textarea:focus{outline:2px solid var(--brass);outline-offset:0;border-color:var(--brass)}
+.days{display:grid;grid-template-columns:repeat(6,minmax(0,1fr))}
+.day{border-right:1px solid var(--line);min-height:300px}
+.day:last-child{border-right:0}
+.day-h{padding:14px 12px;border-bottom:1px solid var(--line);background:#fff}
+.day-h b{display:block;font-weight:600;font-size:14.5px}
+.day-h span{font-size:13px;color:var(--muted)}
+.day.today .day-h{background:var(--brass-soft)}
+.slots{padding:10px;display:flex;flex-direction:column;gap:8px}
+.slot{all:unset;box-sizing:border-box;display:block;cursor:pointer;background:#fff;border:1px solid var(--line);border-left:3px solid var(--pine);border-radius:var(--radius-s);padding:10px 10px 11px;transition:border-color .15s, box-shadow .15s}
+.slot:hover{border-color:var(--pine)}
+.slot:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.slot[aria-pressed="true"]{border-color:var(--pine);box-shadow:0 0 0 2px var(--pine)}
+.slot .t{font-weight:700;font-size:14px}
+.slot .n{font:500 16px/1.25 var(--serif);margin:2px 0 4px;overflow-wrap:anywhere;hyphens:auto}
+.slot .p{font-size:13px;color:var(--muted)}
+.slot .l{display:inline-block;margin-top:6px;font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid;white-space:nowrap}
+.slot.rec{border-left-color:var(--brass);background:#FCF8F0}
+.slot .star{font:600 12px/1.3 var(--sans);color:#7A5A23;display:block;margin-top:6px}
+.slot.dim{opacity:.38}
+.slot.past{opacity:.35;cursor:not-allowed}
+.slot[data-cat="danza"]{border-left-color:#6E4C7A}
+.empty{font-size:13px;color:var(--muted);padding:6px 2px}
+@media (max-width:860px){
+  .days{grid-template-columns:1fr}
+  .day{border-right:0;border-bottom:1px solid var(--line);min-height:0}
+  .day.pastday{display:none}
+  .day-h{display:flex;gap:10px;align-items:baseline}
+  .slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr))}
+}
+.legend{display:flex;gap:18px;flex-wrap:wrap;padding:14px 20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+
+.panel{background:#fff;color:var(--ink);border-radius:var(--radius-m);padding:26px}
+@media (min-width:1021px){.panel{position:sticky;top:96px}}
+.panel h3{font-size:26px;margin-bottom:6px}
+.panel .hint{font-size:14.5px;color:var(--muted);margin-bottom:18px}
+.chosen{background:var(--stone);border-radius:var(--radius-s);padding:14px 16px;margin-bottom:18px;font-size:15px}
+.chosen b{font:500 19px var(--serif);display:block}
+.chosen.none{color:var(--muted)}
+.field{margin-bottom:14px}
+.field label{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
+.field small{display:block;font-size:12.5px;color:var(--muted);margin-top:5px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+textarea{min-height:84px;resize:vertical}
+.alert{font-size:13.5px;line-height:1.5;background:#F7F0E2;border:1px solid #E1CFA9;color:#5E4518;border-radius:var(--radius-s);padding:10px 12px;margin:-4px 0 14px;display:none}
+.alert.show{display:block}
+.err{color:#9B2F1E;font-size:13.5px;margin:4px 0 12px;display:none}
+.err.show{display:block}
+.panel .btn{width:100%;margin-top:6px}
+.privacy{font-size:12.5px;color:var(--muted);margin:12px 0 0}
+.policy{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px;font-size:15px;color:#CCD8D3}
+.policy b{display:block;color:#fff;font:400 20px var(--serif);margin-bottom:4px}
+@media (max-width:760px){.policy{grid-template-columns:1fr}}
+
+/* Precios */
+.prices{display:grid;grid-template-columns:1.2fr 1fr;gap:48px}
+@media (max-width:900px){.prices{grid-template-columns:1fr}}
+.price-group h3{font-size:22px;margin-bottom:10px;color:var(--pine)}
+.price-group+.price-group{margin-top:36px}
+.pr{display:flex;align-items:baseline;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+.pr .what{flex:1}
+.pr .what b{font-weight:600;display:block}
+.pr .what span{font-size:14.5px;color:var(--muted)}
+.pr .amt{font:400 30px/1 var(--serif);color:var(--pine);white-space:nowrap}
+.private{background:var(--pine);color:#fff;border-radius:var(--radius-m);padding:36px;align-self:start}
+.private h3{font-size:32px;margin-bottom:12px}
+.private .from{font:300 56px/1 var(--serif);margin:18px 0 4px}
+.private p{color:#D3DDD9}
+.private ul{padding-left:18px;color:#D3DDD9;margin:0 0 24px}
+.bring{display:flex;gap:28px;flex-wrap:wrap;margin-top:34px;font-size:15px;color:var(--muted)}
+.bring b{color:var(--ink)}
+
+/* Profesores */
+.team{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+@media (max-width:1000px){.team{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.team{grid-template-columns:1fr}}
+.teacher .portrait{aspect-ratio:4/5;background:var(--pine);border-radius:var(--radius-m);display:grid;place-items:center;position:relative;overflow:hidden;margin-bottom:18px}
+.teacher .portrait span{font:300 84px/1 var(--serif);color:rgba(255,255,255,.88)}
+.teacher .portrait img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.04)}
+.teacher .portrait::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(12,24,21,.72) 0%,rgba(12,24,21,0) 38%)}
+.teacher .portrait em{position:absolute;z-index:1;bottom:14px;left:16px;font-style:normal;font-size:13px;color:#E6ECE9}
+.badges{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:22px}
+.badges img{width:84px;height:84px;object-fit:contain;mix-blend-mode:multiply}
+.teacher:nth-child(2) .portrait{background:#3B4A44}
+.teacher:nth-child(3) .portrait{background:#5A5236}
+.teacher:nth-child(4) .portrait{background:#4A3E4F}
+.teacher h3{font-size:26px}
+.teacher .role{font-weight:600;font-size:15px;color:var(--pine);margin:6px 0 10px}
+.teacher p{font-size:15.5px;color:var(--muted)}
+.teacher .pick{background:none;border:0;padding:0;font:600 15px var(--sans);color:var(--brass);cursor:pointer;text-decoration:underline;text-underline-offset:4px}
+.cred{margin-top:48px;padding-top:28px;border-top:1px solid var(--line);font-size:16px;color:var(--muted);max-width:70ch}
+.cred b{color:var(--ink)}
+
+/* Opiniones */
+.rating{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.rating .big{font:300 84px/1 var(--serif);color:var(--pine)}
+.stars{color:var(--brass);font-size:22px;letter-spacing:3px}
+.rating small{display:block;color:var(--muted);font-size:15px}
+.quotes{columns:3 300px;column-gap:28px;margin-top:48px}
+blockquote{break-inside:avoid;margin:0 0 28px;padding:26px;background:#fff;border-radius:var(--radius-m);border:1px solid var(--line)}
+blockquote p{font:400 19px/1.5 var(--serif);margin-bottom:14px}
+blockquote footer{font-size:13.5px;color:var(--muted)}
+
+/* Mar */
+.sea{display:grid;grid-template-columns:1fr 1fr;min-height:560px;background:#16302B;color:#fff;padding:0}
+.sea-img{background:#2C4E46}
+.sea-img img{width:100%;height:100%;object-fit:cover}
+.sea-txt{padding:clamp(48px,7vw,96px);display:flex;flex-direction:column;justify-content:center}
+.sea-txt p{color:#CFDAD6;max-width:48ch}
+.sea dl{display:grid;grid-template-columns:auto 1fr;gap:10px 22px;margin:24px 0 0;font-size:15.5px}
+.sea dt{font-weight:700}
+.sea dd{margin:0;color:#CFDAD6}
+@media (max-width:860px){.sea{grid-template-columns:1fr}.sea-img{height:320px}}
+
+/* Más */
+.more{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+@media (max-width:860px){.more{grid-template-columns:1fr}}
+.more article{border-top:2px solid var(--pine);padding-top:22px}
+.more .ph{aspect-ratio:3/2;border-radius:8px;overflow:hidden;margin-bottom:18px;background:#D9D5CB}
+.more .ph img{width:100%;height:100%;object-fit:cover}
+.more h3{margin-bottom:10px}
+.more p{color:var(--muted);font-size:16px}
+.more a{font-weight:600;color:var(--pine);text-underline-offset:4px}
+
+/* Contacto */
+.contact{display:grid;grid-template-columns:1fr 1.15fr;gap:48px}
+@media (max-width:900px){.contact{grid-template-columns:1fr}}
+.c-list{list-style:none;margin:28px 0;padding:0}
+.c-list li{display:grid;grid-template-columns:28px 1fr;gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+.c-list svg{width:22px;height:22px;color:var(--pine);margin-top:3px}
+.c-list b{display:block;font-size:14px;color:var(--muted);font-weight:600}
+.c-list a{font-size:18px;font-weight:600;text-decoration:none}
+.c-list a:hover{text-decoration:underline}
+.c-actions{display:flex;gap:12px;flex-wrap:wrap}
+.map{border-radius:var(--radius-m);overflow:hidden;min-height:420px;background:#DAD7CF;border:1px solid var(--line)}
+.map iframe{width:100%;height:100%;min-height:420px;border:0;display:block}
+.social-row{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap}
+.social-row a{display:inline-flex;align-items:center;gap:9px;padding:10px 14px;border:1px solid var(--line);border-radius:var(--radius-s);text-decoration:none;font-weight:600;font-size:14.5px;background:#fff}
+.social-row a:hover{border-color:var(--pine)}
+.social-row svg{width:18px;height:18px;fill:var(--pine)}
+
+footer.site{background:#13241F;color:#AFC0BA;font-size:14.5px;padding:48px 0 110px}
+footer.site .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer.site b{color:#fff;font:500 22px var(--serif)}
+footer.site a{color:#fff}
+@media (min-width:861px){footer.site{padding-bottom:48px}}
+
+/* Barra móvil fija */
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;grid-template-columns:1fr 1fr 1fr;background:var(--paper);border-top:1px solid var(--line);padding:8px;gap:8px;padding-bottom:max(8px, env(safe-area-inset-bottom))}
+.mbar a{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:12.5px;font-weight:600;text-decoration:none;padding:7px 4px;border-radius:var(--radius-s)}
+.mbar a svg{width:21px;height:21px}
+.mbar .m-call{color:var(--pine);border:1px solid var(--line)}
+.mbar .m-wa{background:#1E7A4F;color:#fff}
+.mbar .m-book{background:var(--pine);color:#fff}
+@media (max-width:860px){.mbar{display:grid}}
+
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:12px 18px;border-radius:var(--radius-s);font-size:14.5px;opacity:0;pointer-events:none;transition:opacity .25s, transform .25s;z-index:60;max-width:calc(100% - 32px)}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 4h3.2l1.6 4-2 1.3a11 11 0 0 0 6.9 6.9l1.3-2 4 1.6V19a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.6 11.6 0 0 0 4.4 3.9c1.6.7 2.3.8 3.1.6a2.7 2.7 0 0 0 1.7-1.2 2.2 2.2 0 0 0 .2-1.2c-.1-.1-.3-.2-.5-.3z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M3 6h18v12H3zM3 7l9 6 9-6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M4 6h16v14H4zM4 10h16M8 3v5M16 3v5"/></symbol>
+    <symbol id="i-fb" viewBox="0 0 24 24"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4a21 21 0 0 0-2.3-.1c-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21z"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><path d="M12 7.3A4.7 4.7 0 1 0 16.7 12 4.7 4.7 0 0 0 12 7.3zm0 7.7a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm6-7.9a1.1 1.1 0 1 1-1.1-1.1A1.1 1.1 0 0 1 18 7.1zM21.9 8.2a5.4 5.4 0 0 0-1.5-3.9 5.5 5.5 0 0 0-3.9-1.5C15 2.7 9 2.7 7.5 2.8a5.5 5.5 0 0 0-3.9 1.5A5.5 5.5 0 0 0 2.1 8.2C2 9.7 2 14.3 2.1 15.8a5.4 5.4 0 0 0 1.5 3.9 5.5 5.5 0 0 0 3.9 1.5c1.5.1 7.5.1 9 0a5.4 5.4 0 0 0 3.9-1.5 5.5 5.5 0 0 0 1.5-3.9c.1-1.5.1-6.1 0-7.6zM19.9 17.4a3.1 3.1 0 0 1-1.7 1.7c-1.2.5-4 .4-5.2.4s-4.1.1-5.2-.4a3.1 3.1 0 0 1-1.7-1.7c-.5-1.2-.4-4-.4-5.4s-.1-4.1.4-5.3a3.1 3.1 0 0 1 1.7-1.7c1.2-.5 4-.4 5.2-.4s4.1-.1 5.2.4a3.1 3.1 0 0 1 1.7 1.7c.5 1.2.4 4 .4 5.3s.1 4.2-.4 5.4z"/></symbol>
+    <symbol id="i-tg" viewBox="0 0 24 24"><path d="M21.4 3.6 2.9 10.7c-1.3.5-1.2 1.2-.2 1.5l4.7 1.5 1.8 5.6c.2.6.4.8.9.8s.6-.2.9-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.5c.3-1.3-.5-1.9-1.4-1.5zM9.6 14.2l8.3-7.6c.4-.3-.1-.5-.5-.2L7.9 12.9z"/></symbol>
+    <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="top-contact">
+      <a href="tel:+34610088688"><svg aria-hidden="true"><use href="#i-phone"/></svg>Llamar: 610 088 688</a>
+      <a href="https://wa.me/34610088688" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+    </div>
+    <div class="socials">
+      <a href="https://www.instagram.com/yogaalcudia" target="_blank" rel="noopener" aria-label="Instagram de Yoga Alcudia"><svg><use href="#i-ig"/></svg></a>
+      <a href="https://www.facebook.com/yogalcudia" target="_blank" rel="noopener" aria-label="Facebook de Yoga Alcudia"><svg><use href="#i-fb"/></svg></a>
+      <a href="https://t.me/yogalcudia" target="_blank" rel="noopener" aria-label="Telegram de Yoga Alcudia"><svg><use href="#i-tg"/></svg></a>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#inicio"><b>Yoga Alcudia</b><span>Estudio de yoga en Alcúdia, Mallorca</span></a>
+    <nav class="main" id="nav" aria-label="Principal">
+      <ul>
+        <li><a href="#clases">Clases</a></li>
+        <li><a href="#reservar">Horario y reservas</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#profesores">Profesores</a></li>
+        <li><a href="#regalar">Regalar</a></li>
+        <li><a href="#empresas">Empresas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary" href="#reservar" style="white-space:nowrap">Reservar clase</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="inicio">
+
+<section class="hero" style="padding:0" aria-labelledby="hero-h">
+  <canvas id="photo3d" aria-hidden="true"></canvas>
+  <span class="sr" role="img" aria-label="Foto real de la sala de Yoga Alcudia: sala luminosa con espalderas de madera y alumnos haciendo posturas invertidas guiados por la profesora"></span>
+  <div class="wrap">
+    <div class="glass">
+      <h1 id="hero-h">Precisión, calma y método.<span class="sign">Yoga en el corazón de Alcúdia.</span></h1>
+      <p class="sub">Profesores titulados, grupos reducidos y una práctica adaptada a tu cuerpo: tanto si empiezas de cero como si vienes de una lesión o buscas exigirte más.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-light" href="#reservar"><svg aria-hidden="true"><use href="#i-cal"/></svg>Reservar una clase</a>
+        <a class="btn btn-ghost" href="https://wa.me/34610088688" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg>Escribir por WhatsApp</a>
+      </div>
+      <div class="seal">
+        <img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2022/09/rys-200-around-black-3.png?w=120&ssl=1" alt="Sello RYS 200 de Yoga Alliance">
+        <img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2016/12/rys-300-4180603423-e1733327862497.png?w=120&ssl=1" alt="Sello RYS 300 de Yoga Alliance">
+        <span><b>Formación Yoga Alliance</b>RYS 200 y RYS 300, en nuestra sala de Alcúdia</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="creds" aria-label="Garantías">
+  <div class="wrap">
+    <div class="c"><b>Yoga Alliance e IYF</b>Método según sus pautas internacionales</div>
+    <div class="c"><b>4 profesores titulados</b>Yoga y danza, con formación certificada</div>
+    <div class="c"><b>4,9 en Google</b>41 opiniones de alumnos</div>
+    <div class="c"><b>Español e inglés</b>Clases para residentes y visitantes</div>
+  </div>
+</section>
+
+<section id="metodo">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Así trabajamos contigo</h2>
+      <p class="lead">Nada de clases genéricas. Antes de tu primera sesión sabemos quién eres, qué te pasa y adónde quieres llegar.</p>
+    </div>
+    <ol class="method method-ol">
+      <li><span class="num">1</span><h3>Nos cuentas tu punto de partida</h3><p>Tu nivel, si tienes alguna lesión o molestia y qué buscas: descanso, fuerza, flexibilidad o volver a moverte sin dolor.</p></li>
+      <li><span class="num">2</span><h3>Te asignamos clase y profesor</h3><p>Te recomendamos el estilo, el horario y el profesor que mejor encajan contigo, en grupo o en clase privada.</p></li>
+      <li><span class="num">3</span><h3>Te corregimos en cada sesión</h3><p>Grupos reducidos para que el profesor adapte las posturas a tu cuerpo y avances con seguridad, semana a semana.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="bg-paper" id="para-ti">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>¿Qué te trae al yoga?</h2>
+      <p class="lead">Dinos qué necesitas y te señalamos en el calendario las clases que mejor encajan contigo.</p>
+    </div>
+    <div class="needs">
+      <div class="need">
+        <h3>Empiezo desde cero</h3>
+        <p>Aprende las posturas con calma y buena alineación, sin compararte con nadie.</p>
+        <div class="recs">Hatha, Sivananda</div>
+        <button type="button" data-goal="inicio">Ver mis clases</button>
+      </div>
+      <div class="need">
+        <h3>Me he lesionado en el trabajo</h3>
+        <p>Espalda, cervicales, hombros o rodillas: trabajo suave y progresivo, con correcciones individuales.</p>
+        <div class="recs">Restaurativo, Hatha</div>
+        <button type="button" data-goal="lesion-laboral">Ver mis clases</button>
+      </div>
+      <div class="need">
+        <h3>Vengo de una lesión</h3>
+        <p>Recupera movilidad y confianza con posturas pasivas y prolongadas que respetan tus tiempos.</p>
+        <div class="recs">Restaurativo, Hatha</div>
+        <button type="button" data-goal="recuperacion">Ver mis clases</button>
+      </div>
+      <div class="need">
+        <h3>Quiero bajar el estrés</h3>
+        <p>Respiración, relajación profunda y un sistema nervioso que por fin descansa.</p>
+        <div class="recs">Restaurativo, Sivananda, Hatha</div>
+        <button type="button" data-goal="estres">Ver mis clases</button>
+      </div>
+      <div class="need">
+        <h3>Hago deporte y quiero rendir más</h3>
+        <p>Fuerza, resistencia y movilidad como complemento a tu entrenamiento.</p>
+        <div class="recs">Power Yoga, Hatha Flow, Aerial</div>
+        <button type="button" data-goal="deporte">Ver mis clases</button>
+      </div>
+      <div class="need">
+        <h3>Estoy embarazada</h3>
+        <p>Grupos muy reducidos para cuidar el cuerpo, la respiración y la preparación al parto.</p>
+        <div class="recs">Yoga para embarazadas, Restaurativo</div>
+        <button type="button" data-goal="embarazo">Ver mis clases</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="clases">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Ocho maneras de practicar</h2>
+      <p class="lead">Cada clase indica su nivel. Tú marcas tus límites; nosotros te guiamos para avanzar con seguridad.</p>
+    </div>
+    <div class="styles">
+      <div class="style">
+        <div class="ph"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2025/04/hatha.jpg?w=400&ssl=1" alt="Clase de Hatha Yoga en el estudio" loading="lazy" style="object-position:50% 50%"></div>
+        <h3>Hatha Yoga</h3><span class="lvl lvl-todos">Todos los niveles</span>
+        <p>Yoga tradicional: postura, respiración y relajación para equilibrar cuerpo y mente. Se trabaja el equilibrio, la flexibilidad y la fuerza.</p>
+      </div>
+      <div class="style">
+        <div class="ph"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2025/04/restaurativo.jpg?w=400&ssl=1" alt="Clase de yoga restaurativo" loading="lazy" style="object-position:50% 50%"></div>
+        <h3>Restaurativo (Satyananda)</h3><span class="lvl lvl-suave">Suave y terapéutico</span>
+        <p>Posturas pasivas y prolongadas para liberar el estrés y recuperar el sistema nervioso. Ideal si estás cansado o sales de una lesión.</p>
+      </div>
+      <div class="style">
+        <div class="ph"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2025/04/sivananda.jpg?w=400&ssl=1" alt="Clase de Sivananda con bloques" loading="lazy" style="object-position:50% 50%"></div>
+        <h3>Sivananda</h3><span class="lvl lvl-todos">Todos los niveles</span>
+        <p>Posturas, respiración y relajación profunda en una secuencia clásica que armoniza cuerpo y mente.</p>
+      </div>
+      <div class="style">
+        <div class="ph"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2025/04/flow.jpg?w=400&ssl=1" alt="Alumnas en una postura de Hatha Flow" loading="lazy" style="object-position:50% 50%"></div>
+        <h3>Hatha Flow</h3><span class="lvl lvl-inter">Básico a intermedio</span>
+        <p>La alineación del Hatha con transiciones fluidas entre posturas: una práctica más dinámica, pero accesible, que trabaja fuerza, flexibilidad y concentración.</p>
+      </div>
+      <div class="style">
+        <div class="ph"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2025/04/aerialyoga.jpg?w=400&ssl=1" alt="Clase de Aerial Yoga con hamacas" loading="lazy" style="object-position:50% 50%"></div>
+        <h3>Aerial Yoga</h3><span class="lvl lvl-inter">Intermedio</span>
+        <p>Con una hamaca suspendida: descomprime la columna y permite invertidas y estiramientos profundos con menos impacto en las articulaciones. Recomendamos algo de experiencia previa.</p>
+      </div>
+      <div class="style">
+        <div class="ph"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2025/04/dsc_0159_.jpg?w=400&ssl=1" alt="Clase de Power Yoga" loading="lazy" style="object-position:50% 50%"></div>
+        <h3>Power Yoga</h3><span class="lvl lvl-avanz">Avanzado</span>
+        <p>Secuencias dinámicas y vigorosas de fuerza, resistencia y flexibilidad. Pensado para deportistas y alumnos con bastante experiencia.</p>
+      </div>
+      <div class="style">
+        <div class="ph"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2025/04/uru01056_.jpg?w=400&ssl=1" alt="Clase de yoga para embarazadas" loading="lazy" style="object-position:50% 50%"></div>
+        <h3>Yoga para embarazadas</h3><span class="lvl lvl-suave">Suave y terapéutico</span>
+        <p>Respiración, movimiento suave y conciencia plena para aliviar las molestias del embarazo y preparar el cuerpo para el parto. Pregúntanos si hay un grupo abierto.</p>
+      </div>
+      <div class="style">
+        <div class="ph"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2025/04/salacabecera.jpg?w=400&ssl=1" alt="Bailarinas de danza contemporánea en la sala" loading="lazy" style="object-position:6% 50%"></div>
+        <h3>Danza contemporánea</h3><span class="lvl lvl-todos">Todos los niveles</span>
+        <p>Técnica de jazz y ballet clásico con la libertad del contemporáneo: calentamiento, técnica y coreografía. Con Sara Luna, lunes y viernes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reservar">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Elige día, hora y profesor</h2>
+      <p class="lead">Toca una clase del calendario, cuéntanos tu nivel y el motivo, y tu reserva nos llega por WhatsApp. Confirmamos tu plaza enseguida.</p>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Tipo de reserva">
+      <button role="tab" id="tab-group" aria-selected="true" aria-controls="booking">Clase en grupo</button>
+      <button role="tab" id="tab-private" aria-selected="false" aria-controls="booking">Clase privada a tu hora</button>
+    </div>
+
+    <div class="booking" id="booking">
+      <div class="cal" id="calBox">
+        <div class="cal-bar">
+          <div class="week-nav">
+            <button type="button" id="prevW" aria-label="Semana anterior"><svg><use href="#i-chev-l"/></svg></button>
+            <div class="week-label" id="weekLabel" aria-live="polite"></div>
+            <button type="button" id="nextW" aria-label="Semana siguiente"><svg><use href="#i-chev-r"/></svg></button>
+          </div>
+          <div class="filters">
+            <label class="sr" for="fTeacher">Profesor</label>
+            <select id="fTeacher">
+              <option value="">Todos los profesores</option>
+            </select>
+            <label class="sr" for="fLevel">Nivel de la clase</label>
+            <select id="fLevel">
+              <option value="">Todos los niveles de clase</option>
+              <option value="suave">Suave y terapéutico</option>
+              <option value="todos">Todos los niveles</option>
+              <option value="inter">Intermedio</option>
+              <option value="avanz">Avanzado</option>
+            </select>
+          </div>
+        </div>
+        <div class="days" id="days"></div>
+        <div class="legend">
+          <span><i style="background:var(--pine)"></i>Yoga</span>
+          <span><i style="background:#6E4C7A"></i>Danza</span>
+          <span><i style="background:var(--brass)"></i>Recomendada para ti</span>
+        </div>
+      </div>
+
+      <form class="panel" id="form" novalidate>
+        <h3 id="panelTitle">Tu reserva</h3>
+        <p class="hint" id="panelHint">Elige una clase en el calendario.</p>
+
+        <div class="chosen none" id="chosen">Aún no has elegido clase.</div>
+
+        <div id="privateFields" hidden>
+          <div class="field">
+            <label for="pTeacher">Profesor o profesora</label>
+            <select id="pTeacher"></select>
+          </div>
+          <div class="row2">
+            <div class="field">
+              <label for="pDate">Día</label>
+              <input type="date" id="pDate">
+            </div>
+            <div class="field">
+              <label for="pTime">Hora</label>
+              <input type="time" id="pTime" min="07:00" max="21:30" step="900" value="10:00">
+            </div>
+          </div>
+          <div class="row2">
+            <div class="field">
+              <label for="pStyle">Estilo</label>
+              <select id="pStyle">
+                <option>Hatha Yoga</option><option>Restaurativo</option><option>Sivananda</option><option>Hatha Flow</option><option>Aerial Yoga</option><option>Power Yoga</option><option>Yoga para embarazadas</option><option>Yoga en la playa</option><option>Danza contemporánea</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="pPeople">Personas</label>
+              <select id="pPeople">
+                <option value="1">1 persona</option><option value="2">2 personas</option><option value="3">3 personas</option><option value="4">4 personas</option><option value="5">5 o más</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="pPlace">Lugar</label>
+            <select id="pPlace">
+              <option>En el estudio (Carrer Gregal, 11 A)</option>
+              <option>En la playa</option>
+              <option>En mi casa o alojamiento (Alcúdia y alrededores)</option>
+            </select>
+          </div>
+          <p class="chosen" id="pPrice" style="margin-top:0"></p>
+        </div>
+
+        <div>
+          <div class="field">
+            <label for="level">Tu nivel</label>
+            <select id="level">
+              <option value="">Elige</option>
+              <option value="inicio">Iniciación (nunca he practicado)</option>
+              <option value="bajo">Bajo</option>
+              <option value="medio">Medio</option>
+              <option value="inter">Intermedio</option>
+              <option value="experto">Experto</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="goal">Motivo</label>
+            <select id="goal">
+              <option value="">Elige</option>
+              <option value="general">Bienestar general</option>
+              <option value="inicio">Quiero empezar</option>
+              <option value="lesion-laboral">Lesión o dolor por el trabajo</option>
+              <option value="recuperacion">Recuperación tras una lesión</option>
+              <option value="estres">Estrés, ansiedad o descanso</option>
+              <option value="deporte">Deporte y rendimiento</option>
+              <option value="flex">Flexibilidad y fuerza</option>
+              <option value="embarazo">Embarazo</option>
+            </select>
+          </div>
+        </div>
+        <div class="upsell" id="upsell">Si vas a venir dos veces por semana, con la mensualidad cada clase te sale a unos 9 € en lugar de 15 €.
+          <label><input type="checkbox" id="wantPlan"> Quiero que me informéis de bonos y mensualidades</label>
+        </div>
+        <div class="alert" id="injuryNote">Cuéntale al profesor dónde te duele y desde cuándo. Si tienes una lesión reciente o estás de baja, consulta antes con tu médico o fisioterapeuta.</div>
+        <div class="alert" id="levelNote"></div>
+
+        <div class="field">
+          <label for="name">Nombre</label>
+          <input id="name" autocomplete="name" placeholder="Tu nombre">
+        </div>
+        <div class="field">
+          <label for="phone">Teléfono</label>
+          <input id="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="600 000 000">
+        </div>
+        <div class="field">
+          <label for="note">¿Algo que debamos saber? <span style="font-weight:400;color:var(--muted)">(opcional)</span></label>
+          <textarea id="note" placeholder="Por ejemplo: molestias en la zona lumbar, es mi primera clase…"></textarea>
+        </div>
+        <p class="err" id="err" role="alert"></p>
+        <button class="btn btn-wa" type="submit"><svg aria-hidden="true"><use href="#i-wa"/></svg>Enviar reserva por WhatsApp</button>
+        <a class="btn btn-line" href="tel:+34610088688" style="margin-top:10px"><svg aria-hidden="true"><use href="#i-phone"/></svg>Prefiero llamar: 610 088 688</a>
+        <p class="privacy">Tus datos solo se usan para gestionar la reserva y se envían directamente a Yoga Alcudia por WhatsApp.</p>
+      </form>
+    </div>
+
+    <div class="policy">
+      <div><b>Confirma antes de venir</b>Así aseguras tu plaza; los grupos son reducidos.</div>
+      <div><b>Cancela hasta 3 horas antes</b>Escríbenos y liberamos tu plaza sin coste.</div>
+      <div><b>Trae toalla y agua</b>La toalla es obligatoria; la esterilla propia, muy recomendable.</div>
+    </div>
+  </div>
+</section>
+
+<section id="precios">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Precios claros</h2>
+      <p class="lead">Puedes empezar en cualquier momento del año y combinar estilos en el estudio y en la playa.</p>
+    </div>
+    <div class="prices">
+      <div>
+        <div class="price-group">
+          <h3>Mensualidades</h3>
+          <div class="pr"><div class="what"><b>1 clase a la semana</b><span>Desde el inicio del mes natural</span><span class="per">Unos 10,40 € por clase</span></div><div class="amt">45 €</div></div>
+          <div class="pr"><div class="what"><b>2 clases a la semana</b><span>Desde el inicio del mes natural</span><span class="per">Unos 9 € por clase</span></div><div class="amt">78 €</div></div>
+          <div class="pr"><div class="what"><b>Ilimitado<span class="best">Mejor precio por clase</span></b><span>Todas las clases que quieras</span><span class="per">Con 3 clases a la semana, unos 6,90 € por clase</span></div><div class="amt">90 €</div></div>
+        </div>
+        <div class="price-group">
+          <h3>Bonos y clases sueltas</h3>
+          <div class="pr"><div class="what"><b>Bono de 10 clases</b><span>Válido durante 2 meses</span><span class="per">9,80 € por clase</span></div><div class="amt">98 €</div></div>
+          <div class="pr"><div class="what"><b>Bono de 5 clases</b><span>Válido durante 30 días</span><span class="per">11 € por clase</span></div><div class="amt">55 €</div></div>
+          <div class="pr"><div class="what"><b>Clase suelta</b><span>Cualquier estilo excepto Aerial</span></div><div class="amt">15 €</div></div>
+          <div class="pr"><div class="what"><b>Clase suelta de Aerial Yoga</b><span>Con hamaca suspendida</span></div><div class="amt">18 €</div></div>
+        </div>
+        <div class="price-group">
+          <h3>Danza contemporánea</h3>
+          <div class="pr"><div class="what"><b>Mensual, lunes y viernes</b><span>10 % de descuento si también vienes a yoga</span></div><div class="amt">78 €</div></div>
+          <div class="pr"><div class="what"><b>Mensual, lunes o viernes</b><span>10 % de descuento si también vienes a yoga</span></div><div class="amt">45 €</div></div>
+          <div class="pr"><div class="what"><b>Clase suelta o de prueba</b><span>Por persona</span></div><div class="amt">15 €</div></div>
+        </div>
+      </div>
+      <aside class="private tilt">
+        <h3>Clase privada</h3>
+        <p>Con el profesor que elijas, el día y la hora que mejor te vengan.</p>
+        <div class="from">65 €</div>
+        <p>por clase para una persona, más 15 € por cada persona adicional.</p>
+        <ul>
+          <li>En el estudio, en la playa o en tu alojamiento, en Alcúdia y alrededores.</li>
+          <li>Ideal para lesiones, embarazo o para empezar con seguridad.</li>
+          <li>Precios especiales para grupos grandes y eventos.</li>
+        </ul>
+        <button type="button" class="btn btn-light" id="goPrivate"><svg aria-hidden="true"><use href="#i-cal"/></svg>Pedir mi clase privada</button>
+      </aside>
+    </div>
+    <div class="bring">
+      <span><b>Alumnos de Yoga Alcudia:</b> descuentos en SUP Yoga, tour de paddle y danza.</span>
+    </div>
+  </div>
+</section>
+
+<section class="bg-paper" id="profesores">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Quién te guía</h2>
+      <p class="lead">Un equipo pequeño que conoce a cada alumno por su nombre, y su cuerpo por sus límites.</p>
+    </div>
+    <div class="team">
+      <article class="teacher">
+        <div class="portrait tilt"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2022/09/nei_yoga-1.jpg?w=800&ssl=1" alt="Nereida Novellón en una postura de Aerial Yoga" loading="lazy" style="object-position:50% 30%"><em>Nombre yogui: Indirá</em></div>
+        <h3>Nereida Novellón</h3>
+        <div class="role">Hatha, Power y Aerial Yoga</div>
+        <p>Da clase en español y en inglés y adapta cada sesión a la condición física de cada alumno, con correcciones constantes.</p>
+        <button type="button" class="pick" data-teacher="Nereida">Ver sus clases</button>
+      </article>
+      <article class="teacher">
+        <div class="portrait tilt"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2022/09/dsc_0056-2-1.jpg?w=800&ssl=1" alt="Luciano Sigilli sentado en la sala del estudio" loading="lazy" style="object-position:62% 50%"><em>Nombre yogui: Anan Sagar</em></div>
+        <h3>Luciano Sigilli</h3>
+        <div class="role">Hatha y Power Yoga</div>
+        <p>Técnico deportivo. Especialista en yoga como complemento para deportistas de todas las modalidades: fuerza, resistencia y prevención de lesiones.</p>
+        <button type="button" class="pick" data-teacher="Luciano">Ver sus clases</button>
+      </article>
+      <article class="teacher">
+        <div class="portrait tilt"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2022/09/ele.jpg?w=800&ssl=1" alt="Elena de la Cruz en una postura de yoga restaurativo" loading="lazy" style="object-position:86% 50%"><em>Especialidad Satyananda</em></div>
+        <h3>Elena de la Cruz</h3>
+        <div class="role">Yoga restaurativo (Satyananda)</div>
+        <p>Especialista en yoga restaurativo. Sus clases son la referencia para el descanso profundo y la recuperación.</p>
+        <button type="button" class="pick" data-teacher="Elena">Ver sus clases</button>
+      </article>
+      <article class="teacher">
+        <div class="portrait tilt"><img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2025/04/9e063258-cc34-48e0-ac8b-533a3d6efe6f__.jpg?w=800&ssl=1" alt="Sara Luna bailando danza contemporánea" loading="lazy" style="object-position:64% 50%"><em>Yoga y danza</em></div>
+        <h3>Sara Luna</h3>
+        <div class="role">Hatha, Sivananda, Satyananda y danza</div>
+        <p>Formada en la Asociación de Profesores de Danza Española (Madrid) y en la Escuela Superior de Artes de Yucatán (México). Ha bailado en Madrid, Bruselas, Costa Rica y Cancún.</p>
+        <button type="button" class="pick" data-teacher="Sara">Ver sus clases</button>
+      </article>
+    </div>
+    <div class="cred">
+      <p style="margin:0">Nuestro método sigue las pautas de <b>Yoga Alliance</b> y de la <b>International Yoga Federation</b>. Somos profesores formados y reconocidos por las principales organizaciones del yoga.</p>
+      <div class="badges">
+        <img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2022/09/rys-200-around-black-3.png?w=200&ssl=1" alt="Sello Registered Yoga School RYS 200 de Yoga Alliance" loading="lazy">
+        <img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2016/12/rys-300-4180603423-e1733327862497.png?ssl=1" alt="Sello Registered Yoga School RYS 300 de Yoga Alliance" loading="lazy">
+        <img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2024/12/certificadogeo_.png?w=200&ssl=1" alt="Certificación Geo's Power Yoga GPY 500" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="opiniones">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Lo que dicen nuestros alumnos</h2>
+      <div class="rating">
+        <div class="big">4,9</div>
+        <div>
+          <div class="stars" aria-label="4,9 de 5 estrellas">★★★★★</div>
+          <small>41 opiniones en Google</small>
+          <a href="https://www.google.com/maps/search/?api=1&query=Yoga%20Alc%C3%BAdia%2C%20Carrer%20Gregal%2011%20A%2C%20Alc%C3%BAdia&query_place_id=ChIJ_VhCwCEtlhIRrpnAN7kr9eg" target="_blank" rel="noopener" style="font-weight:600;color:var(--pine);font-size:15px">Leer todas en Google</a>
+        </div>
+      </div>
+    </div>
+    <div class="quotes">
+      <blockquote>
+        <p>“Llevo 4 años yendo con Nereida, sólo decir que desde que voy a sus clases no necesito fisio. Conoce el cuerpo y sabiendo mis dolencias, me guía y corrige.”</p>
+        <footer>Alumna, opinión en Google</footer>
+      </blockquote>
+      <blockquote>
+        <p>“Excelente y super profesional!! He probado otros centros y sin lugar a dudas los mejores.”</p>
+        <footer>Alumno, opinión en Google</footer>
+      </blockquote>
+      <blockquote>
+        <p>“Llevo más de 6 años haciendo clases de yoga en Yoga Alcúdia, también fui durante mi embarazo y puedo decir que Nereida siempre está pendiente de que estés lo mejor posible, es muy atenta y adapta la clase a lo que necesites en ese momento.”</p>
+        <footer>Alumna, opinión en Google</footer>
+      </blockquote>
+      <blockquote>
+        <p>“Nereida es excelente profesora con mucha experiencia! Altamente recomendada para cualquier nivel de practicante!”</p>
+        <footer>Alumno, opinión en Google</footer>
+      </blockquote>
+      <blockquote>
+        <p>“Super recomendable. Me faltan horas del día para asistir a más clases.”</p>
+        <footer>Alumna, opinión en Google</footer>
+      </blockquote>
+      <blockquote>
+        <p>“Nice experience and a great way to start the day with yoga here!”</p>
+        <footer>Visitor, Google review</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="sea" aria-labelledby="sea-h">
+  <div class="sea-img">
+    <img src="https://i0.wp.com/yogalcudia.com/wp-content/uploads/2025/04/supyoga2018-1.jpg?w=1400&ssl=1" alt="Clase de SUP Yoga sobre tablas de paddle en la bahía de Pollença" loading="lazy">
+  </div>
+  <div class="sea-txt">
+    <h2 id="sea-h" style="margin-bottom:20px">En verano, también en el mar</h2>
+    <p>Empezamos en la arena y terminamos dentro del agua, en la bahía de Pollença, con la montaña de frente. La flotación permite posturas que en sala no salen, y el mar en calma ayuda a concentrarse.</p>
+    <dl>
+      <dt>Yoga en la playa</dt><dd>Jueves y sábados a las 9:00. Incluido en tu bono o mensualidad.</dd>
+      <dt>SUP Yoga</dt><dd>Lunes y viernes a las 8:00, sobre tabla de paddle. Mínimo 3 personas; 50 % de descuento si traes tu tabla.</dd>
+      <dt>Punto de encuentro</dt><dd>Escuela Kite and Yoga, Ctra. Port de Pollença, 21.</dd>
+    </dl>
+    <p style="margin-top:20px;font-size:14.5px">Temporada de verano. Las clases en el mar dependen del tiempo: te avisamos el día antes.</p>
+  </div>
+</section>
+
+<section id="regalar">
+  <div class="wrap">
+    <div class="gift">
+      <div class="voucher tilt" aria-hidden="true">
+        <div class="vb">Yoga Alcudia</div>
+        <div><div class="vt" id="vTitle">Bono de 5 clases</div><div class="vp" id="vPrice">55 €</div></div>
+        <div class="vf"><span id="vFor">Para: alguien especial</span><span>Carrer Gregal, 11 A, Alcúdia</span></div>
+      </div>
+      <div>
+        <h2>Regala yoga</h2>
+        <p class="lead" style="margin:16px 0 28px">Una tarjeta regalo para cumpleaños, aniversarios o para alguien que necesita parar. La preparamos con su nombre y te la enviamos lista para entregar.</p>
+        <form class="gift-form" id="giftForm" novalidate>
+          <div class="field">
+            <label for="gType">Qué quieres regalar</label>
+            <select id="gType">
+              <option value="Clase suelta|15">Clase suelta, 15 €</option>
+              <option value="Bono de 5 clases|55" selected>Bono de 5 clases, 55 €</option>
+              <option value="Bono de 10 clases|98">Bono de 10 clases, 98 €</option>
+              <option value="Clase privada|65">Clase privada, 65 €</option>
+              <option value="Mes ilimitado|90">Mes ilimitado, 90 €</option>
+            </select>
+          </div>
+          <div class="row2">
+            <div class="field"><label for="gTo">Para</label><input id="gTo" placeholder="Nombre de quien lo recibe"></div>
+            <div class="field"><label for="gFrom">De parte de</label><input id="gFrom" placeholder="Tu nombre"></div>
+          </div>
+          <p class="err" id="gErr" role="alert"></p>
+          <button class="btn btn-wa" type="submit"><svg aria-hidden="true"><use href="#i-wa"/></svg>Pedir la tarjeta regalo por WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-paper" id="empresas">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Para empresas y alojamientos</h2>
+      <p class="lead">Llevamos el yoga a tu equipo o a tus huéspedes, con el mismo cuidado que en el estudio.</p>
+    </div>
+    <div class="biz">
+      <article class="tilt">
+        <h3>Yoga para tu equipo</h3>
+        <p>Para plantillas que pasan muchas horas sentadas, de pie o cargando peso: cuidar la espalda, soltar tensión y bajar el estrés.</p>
+        <ul>
+          <li>Sesiones en vuestras instalaciones o en nuestro estudio</li>
+          <li>Clases adaptadas a cada puesto: oficina, hostelería, obra o taller</li>
+          <li>Frecuencia semanal, mensual o jornadas puntuales</li>
+        </ul>
+        <a class="btn btn-primary" target="_blank" rel="noopener" href="https://wa.me/34610088688?text=Hola%2C%20me%20interesa%20yoga%20para%20el%20equipo%20de%20mi%20empresa.%20%C2%BFPodemos%20hablar%3F"><svg aria-hidden="true"><use href="#i-wa"/></svg>Pedir propuesta para mi empresa</a>
+      </article>
+      <article class="tilt">
+        <h3>Hoteles y alquiler vacacional</h3>
+        <p>Ofrece a tus huéspedes clases privadas de yoga en Alcúdia y alrededores: en el propio alojamiento, en la playa o en el estudio.</p>
+        <ul>
+          <li>Clases en español e inglés</li>
+          <li>Sesiones para parejas, familias y grupos</li>
+          <li>Precios especiales para colaboraciones y eventos</li>
+        </ul>
+        <a class="btn btn-primary" target="_blank" rel="noopener" href="https://wa.me/34610088688?text=Hola%2C%20tengo%20un%20alojamiento%20en%20la%20zona%20y%20me%20interesa%20ofrecer%20vuestras%20clases%20a%20mis%20hu%C3%A9spedes."><svg aria-hidden="true"><use href="#i-wa"/></svg>Colaborar con mi alojamiento</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="wrap">
+    <div class="contact">
+      <div>
+        <h2>Ven a conocernos</h2>
+        <p class="lead" style="margin-top:16px">A tres minutos del casco antiguo de Alcúdia, con aparcamiento gratuito en la calle.</p>
+        <ul class="c-list">
+          <li><svg aria-hidden="true"><use href="#i-phone"/></svg><div><b>Teléfono</b><a href="tel:+34610088688">+34 610 088 688</a></div></li>
+          <li><svg aria-hidden="true"><use href="#i-wa"/></svg><div><b>WhatsApp</b><a href="https://wa.me/34610088688" target="_blank" rel="noopener">Escríbenos al 610 088 688</a></div></li>
+          <li><svg aria-hidden="true"><use href="#i-mail"/></svg><div><b>Email</b><a href="mailto:yogalcudia@gmail.com">yogalcudia@gmail.com</a></div></li>
+          <li><svg aria-hidden="true"><use href="#i-pin"/></svg><div><b>Dirección</b><a href="https://www.google.com/maps/dir/?api=1&destination=39.8529923%2C3.1152666&destination_place_id=ChIJ_VhCwCEtlhIRrpnAN7kr9eg" target="_blank" rel="noopener">Carrer Gregal, 11 A, 07400 Alcúdia</a></div></li>
+          <li><svg aria-hidden="true"><use href="#i-clock"/></svg><div><b>Horario</b><span style="font-size:18px;font-weight:600">Abierto en horas de clase. Reserva antes de venir.</span></div></li>
+        </ul>
+        <div class="c-actions">
+          <a class="btn btn-primary" href="tel:+34610088688"><svg aria-hidden="true"><use href="#i-phone"/></svg>Llamar ahora</a>
+          <a class="btn btn-wa" href="https://wa.me/34610088688" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg>Abrir WhatsApp</a>
+        </div>
+        <div class="social-row">
+          <a href="https://www.instagram.com/yogaalcudia" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-ig"/></svg>Instagram</a>
+          <a href="https://www.facebook.com/yogalcudia" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-fb"/></svg>Facebook</a>
+          <a href="https://t.me/yogalcudia" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-tg"/></svg>Telegram</a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe title="Mapa: Yoga Alcudia, Carrer Gregal 11 A, Alcúdia" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.9440805410304!2d3.1127345757189775!3d39.85308618975233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12962d21c04258fd%3A0xe8f52bb937c099ae!2sYoga%20Alcudia!5e0!3m2!1ses!2ses!4v1694504388991!5m2!1ses!2ses"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div><b>Yoga Alcudia</b><br>Carrer Gregal, 11 A, 07400 Alcúdia, Mallorca</div>
+    <div><a href="tel:+34610088688">+34 610 088 688</a><br><a href="mailto:yogalcudia@gmail.com">yogalcudia@gmail.com</a></div>
+    <div>© 2019 Yoga Alcudia</div>
+  </div>
+</footer>
+
+<nav class="mbar" aria-label="Contacto rápido">
+  <a class="m-call" href="tel:+34610088688"><svg aria-hidden="true"><use href="#i-phone"/></svg>Llamar</a>
+  <a class="m-wa" href="https://wa.me/34610088688" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+  <a class="m-book" href="#reservar"><svg aria-hidden="true"><use href="#i-cal"/></svg>Reservar</a>
+</nav>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* ====== DATOS EDITABLES ======
+   Horario semanal: día (1 = lunes ... 6 = sábado), hora de inicio, duración en minutos,
+   clase, profesor, nivel (suave | todos | inter | avanz) y categoría (yoga | danza). */
+const WHATSAPP = "34610088688";
+const TEACHERS = {
+  Nereida: "Nereida Novellón",
+  Luciano: "Luciano Sigilli",
+  Elena: "Elena de la Cruz",
+  Sara: "Sara Luna"
+};
+const SCHEDULE = [
+  {d:1, t:"08:15", m:60, c:"Hatha Yoga",               p:"Nereida", l:"todos", cat:"yoga"},
+  {d:1, t:"18:30", m:60, c:"Hatha Yoga",               p:"Luciano", l:"todos", cat:"yoga"},
+  {d:1, t:"19:30", m:90, c:"Danza contemporánea",      p:"Sara",    l:"todos", cat:"danza"},
+  {d:2, t:"09:00", m:60, c:"Hatha Yoga",               p:"Nereida", l:"todos", cat:"yoga"},
+  {d:2, t:"18:00", m:60, c:"Restaurativo (Satyananda)",p:"Elena",   l:"suave", cat:"yoga"},
+  {d:2, t:"19:15", m:60, c:"Aerial Yoga",              p:"Nereida", l:"inter", cat:"yoga"},
+  {d:3, t:"08:15", m:60, c:"Hatha Yoga",               p:"Nereida", l:"todos", cat:"yoga"},
+  {d:3, t:"18:15", m:60, c:"Sivananda",                p:"Sara",    l:"todos", cat:"yoga"},
+  {d:4, t:"18:15", m:60, c:"Hatha Yoga",               p:"Luciano", l:"todos", cat:"yoga"},
+  {d:4, t:"19:30", m:60, c:"Hatha Flow",               p:"Nereida", l:"inter", cat:"yoga"},
+  {d:5, t:"09:00", m:60, c:"Power Yoga",               p:"Luciano", l:"avanz", cat:"yoga"},
+  {d:5, t:"18:00", m:60, c:"Restaurativo (Satyananda)",p:"Elena",   l:"suave", cat:"yoga"},
+  {d:5, t:"19:30", m:90, c:"Danza contemporánea",      p:"Sara",    l:"todos", cat:"danza"},
+  {d:6, t:"09:00", m:60, c:"Hatha Yoga",               p:"Nereida", l:"todos", cat:"yoga"}
+];
+const LEVEL_SHORT = {suave:"Suave", todos:"Para todos", inter:"Intermedio", avanz:"Avanzado"};
+const SHORT = {"Restaurativo (Satyananda)":"Restaurativo","Danza contemporánea":"Danza"};
+const LEVEL_NAME = {suave:"Suave y terapéutico", todos:"Todos los niveles", inter:"Intermedio", avanz:"Avanzado"};
+const LEVEL_CLASS = {suave:"lvl-suave", todos:"lvl-todos", inter:"lvl-inter", avanz:"lvl-avanz"};
+/* Qué niveles de clase encajan con cada nivel del alumno */
+const FITS = {
+  inicio:["suave","todos"], bajo:["suave","todos"], medio:["suave","todos","inter"],
+  inter:["suave","todos","inter","avanz"], experto:["suave","todos","inter","avanz"]
+};
+/* Qué clases recomendamos según el motivo */
+const GOAL_RECS = {
+  general:["Hatha Yoga","Sivananda","Hatha Flow"],
+  inicio:["Hatha Yoga","Sivananda"],
+  "lesion-laboral":["Restaurativo (Satyananda)","Hatha Yoga"],
+  recuperacion:["Restaurativo (Satyananda)","Hatha Yoga"],
+  estres:["Restaurativo (Satyananda)","Sivananda","Hatha Yoga"],
+  deporte:["Power Yoga","Hatha Flow","Aerial Yoga"],
+  flex:["Hatha Flow","Aerial Yoga","Power Yoga"],
+  embarazo:["Restaurativo (Satyananda)"]
+};
+const LEVEL_USER = {inicio:"Iniciación", bajo:"Bajo", medio:"Medio", inter:"Intermedio", experto:"Experto"};
+const GOAL_NAME = {general:"Bienestar general", inicio:"Quiero empezar", "lesion-laboral":"Lesión o dolor por el trabajo", recuperacion:"Recuperación tras una lesión", estres:"Estrés, ansiedad o descanso", deporte:"Deporte y rendimiento", flex:"Flexibilidad y fuerza", embarazo:"Embarazo"};
+
+/* ====== LÓGICA ====== */
+const $ = s => document.querySelector(s);
+const DAYS = ["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
+const MONTHS = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+const pad = n => String(n).padStart(2,"0");
+const ymd = d => d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());
+
+const now = new Date();
+function mondayOf(d){const x=new Date(d.getFullYear(),d.getMonth(),d.getDate());const wd=(x.getDay()+6)%7;x.setDate(x.getDate()-wd);return x;}
+let baseMonday = mondayOf(now);
+/* El domingo se muestra ya la semana siguiente */
+if(now.getDay()===0){baseMonday.setDate(baseMonday.getDate()+7);}
+let weekOffset = 0;
+const MAX_WEEKS = 3;
+let mode = "group";
+let selected = null;
+
+const state = {teacher:"", level:"", userLevel:"", goal:""};
+
+/* Selectores de profesor */
+for(const [k,v] of Object.entries(TEACHERS)){
+  $("#fTeacher").insertAdjacentHTML("beforeend", `<option value="${k}">${v}</option>`);
+  $("#pTeacher").insertAdjacentHTML("beforeend", `<option value="${k}">${v}</option>`);
+}
+
+function endTime(t,m){const [h,mi]=t.split(":").map(Number);const tot=h*60+mi+m;return pad(Math.floor(tot/60))+":"+pad(tot%60);}
+
+function renderWeek(){
+  const mon = new Date(baseMonday); mon.setDate(mon.getDate()+weekOffset*7);
+  const sat = new Date(mon); sat.setDate(sat.getDate()+5);
+  const lbl = mon.getMonth()===sat.getMonth()
+    ? `${mon.getDate()} – ${sat.getDate()} de ${MONTHS[sat.getMonth()]}`
+    : `${mon.getDate()} de ${MONTHS[mon.getMonth()]} – ${sat.getDate()} de ${MONTHS[sat.getMonth()]}`;
+  $("#weekLabel").textContent = lbl;
+  $("#prevW").disabled = weekOffset===0;
+  $("#nextW").disabled = weekOffset>=MAX_WEEKS-1;
+
+  const recs = state.goal ? GOAL_RECS[state.goal] : null;
+  const fits = state.userLevel ? FITS[state.userLevel] : null;
+  let html = "";
+  for(let i=0;i<6;i++){
+    const day = new Date(mon); day.setDate(day.getDate()+i);
+    const isToday = ymd(day)===ymd(now);
+    const items = SCHEDULE.filter(s=>s.d===i+1).sort((a,b)=>a.t.localeCompare(b.t));
+    let slots = "";
+    let shown = 0;
+    for(const s of items){
+      const [h,mi] = s.t.split(":").map(Number);
+      const start = new Date(day.getFullYear(),day.getMonth(),day.getDate(),h,mi);
+      const past = start < now;
+      const hiddenByFilter = (state.teacher && s.p!==state.teacher) || (state.level && s.l!==state.level);
+      if(hiddenByFilter) continue;
+      shown++;
+      const isRec = !past && recs && recs.includes(s.c) && (!fits || fits.includes(s.l));
+      const dim = !past && fits && !fits.includes(s.l);
+      const id = ymd(day)+"_"+s.t+"_"+s.p;
+      const pressed = selected && selected.id===id;
+      slots += `<button type="button" class="slot${isRec?" rec":""}${dim?" dim":""}${past?" past":""}" data-cat="${s.cat}" data-id="${id}" data-date="${ymd(day)}" data-i="${SCHEDULE.indexOf(s)}" aria-pressed="${pressed?"true":"false"}" ${past?'disabled aria-disabled="true"':""} aria-label="${s.c}, ${DAYS[day.getDay()]} ${day.getDate()} a las ${s.t}, con ${TEACHERS[s.p]}, ${LEVEL_NAME[s.l]}${past?", ya empezada":""}">
+        <div class="t">${s.t} – ${endTime(s.t,s.m)}</div>
+        <div class="n">${SHORT[s.c]||s.c}</div>
+        <div class="p">con ${TEACHERS[s.p].split(" ")[0]}</div>
+        <span class="l ${LEVEL_CLASS[s.l]}">${LEVEL_SHORT[s.l]}</span>
+        ${isRec?'<span class="star">Recomendada para ti</span>':""}
+        ${dim?'<span class="star" style="color:var(--muted)">Por encima de tu nivel</span>':""}
+      </button>`;
+    }
+    if(!shown) slots = `<div class="empty">${items.length?"Sin clases con este filtro.":"Sin clases este día."}</div>`;
+    const dayPast = ymd(day) < ymd(now);
+    html += `<div class="day${isToday?" today":""}${dayPast?" pastday":""}"><div class="day-h"><b>${cap(DAYS[day.getDay()])}</b><span>${day.getDate()} de ${MONTHS[day.getMonth()]}${isToday?" (hoy)":""}</span></div><div class="slots">${slots}</div></div>`;
+  }
+  $("#days").innerHTML = html;
+}
+
+$("#days").addEventListener("click", e=>{
+  const b = e.target.closest(".slot"); if(!b || b.disabled) return;
+  const s = SCHEDULE[+b.dataset.i];
+  const [y,mo,da] = b.dataset.date.split("-").map(Number);
+  const date = new Date(y,mo-1,da);
+  selected = {id:b.dataset.id, s, date};
+  renderWeek(); renderChosen();
+  if(window.innerWidth<=1020){ $("#form").scrollIntoView({behavior:"smooth", block:"start"}); }
+});
+
+function renderChosen(){
+  const box = $("#chosen");
+  if(mode==="private"){ box.hidden = true; return; }
+  box.hidden = false;
+  if(!selected){ box.className="chosen none"; box.textContent="Aún no has elegido clase."; updateLevelNote(); return; }
+  const {s,date} = selected;
+  box.className="chosen";
+  box.innerHTML = `<b>${s.c}</b>${cap(DAYS[date.getDay()])} ${date.getDate()} de ${MONTHS[date.getMonth()]}, de ${s.t} a ${endTime(s.t,s.m)}<br>Con ${TEACHERS[s.p]}. Nivel de la clase: ${LEVEL_NAME[s.l].toLowerCase()}.`;
+  updateLevelNote();
+}
+
+function updateLevelNote(){
+  const n = $("#levelNote");
+  if(mode==="group" && selected && state.userLevel && !FITS[state.userLevel].includes(selected.s.l)){
+    n.textContent = `Esta clase es de nivel ${LEVEL_NAME[selected.s.l].toLowerCase()}. Para tu nivel te recomendamos empezar por Hatha, Sivananda o Restaurativo; si aun así quieres probarla, el profesor te dará alternativas.`;
+    n.classList.add("show");
+  } else n.classList.remove("show");
+  $("#injuryNote").classList.toggle("show", ["lesion-laboral","recuperacion","embarazo"].includes(state.goal));
+}
+
+$("#fTeacher").addEventListener("change", e=>{state.teacher=e.target.value; renderWeek();});
+$("#fLevel").addEventListener("change", e=>{state.level=e.target.value; renderWeek();});
+$("#level").addEventListener("change", e=>{state.userLevel=e.target.value; renderWeek(); updateLevelNote();});
+$("#goal").addEventListener("change", e=>{state.goal=e.target.value; renderWeek(); updateLevelNote();});
+$("#prevW").addEventListener("click", ()=>{ if(weekOffset>0){weekOffset--; renderWeek();} });
+$("#nextW").addEventListener("click", ()=>{ if(weekOffset<MAX_WEEKS-1){weekOffset++; renderWeek();} });
+
+/* Botones "¿Qué te trae al yoga?" */
+document.querySelectorAll("[data-goal]").forEach(b=>b.addEventListener("click", ()=>{
+  setMode("group");
+  state.goal = b.dataset.goal; $("#goal").value = state.goal;
+  if(state.goal==="inicio" && !state.userLevel){ state.userLevel="inicio"; $("#level").value="inicio"; }
+  renderWeek(); updateLevelNote();
+  $("#reservar").scrollIntoView({behavior:"smooth"});
+  toast(state.goal==="embarazo" ? "Te marcamos las clases suaves. Para el grupo de embarazadas, escríbenos y te decimos si hay uno abierto." : "Te hemos marcado en dorado las clases que mejor encajan contigo.");
+}));
+/* Botones "Ver sus clases" */
+document.querySelectorAll("[data-teacher]").forEach(b=>b.addEventListener("click", ()=>{
+  setMode("group");
+  state.teacher = b.dataset.teacher; $("#fTeacher").value = state.teacher; renderWeek();
+  $("#reservar").scrollIntoView({behavior:"smooth"});
+}));
+
+/* Pestañas */
+function setMode(m){
+  mode = m;
+  $("#tab-group").setAttribute("aria-selected", m==="group");
+  $("#tab-private").setAttribute("aria-selected", m==="private");
+  $("#calBox").hidden = m==="private";
+  $("#privateFields").hidden = m!=="private";
+  $("#upsell").hidden = m==="private";
+  $("#booking").style.gridTemplateColumns = m==="private" ? "minmax(0,560px)" : "";
+  $("#panelTitle").textContent = m==="private" ? "Tu clase privada" : "Tu reserva";
+  $("#panelHint").textContent = m==="private" ? "Elige profesor, día y hora. Te confirmamos disponibilidad por WhatsApp." : "Elige una clase en el calendario.";
+  renderChosen(); updatePrice(); $("#err").classList.remove("show");
+}
+$("#tab-group").addEventListener("click", ()=>setMode("group"));
+$("#tab-private").addEventListener("click", ()=>setMode("private"));
+$("#goPrivate").addEventListener("click", ()=>{ setMode("private"); $("#reservar").scrollIntoView({behavior:"smooth"}); });
+
+/* Fecha mínima de la clase privada: mañana */
+const tmr = new Date(now); tmr.setDate(tmr.getDate()+1);
+$("#pDate").min = ymd(tmr); $("#pDate").value = ymd(tmr);
+
+function updatePrice(){
+  const n = +$("#pPeople").value;
+  const el = $("#pPrice");
+  el.textContent = n>=5 ? "Para 5 personas o más te preparamos un precio especial de grupo." : `Precio orientativo: ${65+(n-1)*15} € la clase.`;
+}
+$("#pPeople").addEventListener("change", updatePrice);
+
+/* Envío por WhatsApp */
+$("#form").addEventListener("submit", e=>{
+  e.preventDefault();
+  const name = $("#name").value.trim(), phone = $("#phone").value.trim(), note = $("#note").value.trim();
+  const errs = [];
+  let lines = [];
+  if(mode==="group"){
+    if(!selected) errs.push("elige una clase en el calendario");
+  } else {
+    if(!$("#pDate").value) errs.push("elige el día");
+    if(!$("#pTime").value) errs.push("elige la hora");
+  }
+  if(!state.userLevel) errs.push("indica tu nivel");
+  if(!state.goal) errs.push("indica el motivo");
+  if(!name) errs.push("escribe tu nombre");
+  if(phone.replace(/\D/g,"").length<9) errs.push("escribe un teléfono válido");
+  if(errs.length){
+    const err = $("#err"); err.textContent = "Para enviar la reserva, " + errs.join(", ") + "."; err.classList.add("show"); return;
+  }
+  $("#err").classList.remove("show");
+  if(mode==="group"){
+    const {s,date} = selected;
+    lines = [
+      "Hola, quiero reservar una clase en Yoga Alcudia:",
+      `Clase: ${s.c}`,
+      `Día: ${DAYS[date.getDay()]} ${date.getDate()} de ${MONTHS[date.getMonth()]}, de ${s.t} a ${endTime(s.t,s.m)}`,
+      `Profesor/a: ${TEACHERS[s.p]}`
+    ];
+  } else {
+    const [y,mo,da] = $("#pDate").value.split("-").map(Number); const d = new Date(y,mo-1,da);
+    lines = [
+      "Hola, quiero pedir una clase privada en Yoga Alcudia:",
+      `Profesor/a: ${TEACHERS[$("#pTeacher").value]}`,
+      `Día: ${DAYS[d.getDay()]} ${d.getDate()} de ${MONTHS[d.getMonth()]} a las ${$("#pTime").value}`,
+      `Estilo: ${$("#pStyle").value}`,
+      `Personas: ${$("#pPeople").selectedOptions[0].text}`,
+      `Lugar: ${$("#pPlace").value}`
+    ];
+  }
+  lines.push(`Mi nivel: ${LEVEL_USER[state.userLevel]}`, `Motivo: ${GOAL_NAME[state.goal]}`, `Nombre: ${name}`, `Teléfono: ${phone}`);
+  if(note) lines.push(`Comentario: ${note}`);
+  if(mode==="group" && $("#wantPlan").checked) lines.push("Me interesa información de bonos y mensualidades.");
+  const url = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(lines.join("\n"))}`;
+  window.open(url, "_blank", "noopener");
+  toast("Abriendo WhatsApp con tu reserva. Solo tienes que pulsar enviar.");
+});
+
+let tTimer;
+function toast(msg){const t=$("#toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(tTimer); tTimer=setTimeout(()=>t.classList.remove("show"),4200);}
+
+/* Menú móvil */
+$("#menuBtn").addEventListener("click", ()=>{
+  const open = $("#nav").classList.toggle("open");
+  $("#menuBtn").setAttribute("aria-expanded", open);
+});
+document.querySelectorAll("#nav a").forEach(a=>a.addEventListener("click", ()=>{ $("#nav").classList.remove("open"); $("#menuBtn").setAttribute("aria-expanded","false"); }));
+
+/* Imágenes que no cargan: se queda el fondo de color */
+document.querySelectorAll("img").forEach(img=>img.addEventListener("error", ()=>{ img.style.visibility="hidden"; }));
+
+/* Tarjeta regalo */
+function updVoucher(){
+  const [t,pr] = $("#gType").value.split("|");
+  $("#vTitle").textContent = t; $("#vPrice").textContent = pr+" €";
+  const to = $("#gTo").value.trim();
+  $("#vFor").textContent = "Para: " + (to || "alguien especial");
+}
+["change","input"].forEach(ev=>{ $("#gType").addEventListener(ev,updVoucher); $("#gTo").addEventListener(ev,updVoucher); });
+$("#giftForm").addEventListener("submit", e=>{
+  e.preventDefault();
+  const to=$("#gTo").value.trim(), from=$("#gFrom").value.trim();
+  const [t,pr] = $("#gType").value.split("|");
+  if(!to || !from){ const g=$("#gErr"); g.textContent="Para pedir la tarjeta, escribe para quién es y de parte de quién."; g.classList.add("show"); return; }
+  $("#gErr").classList.remove("show");
+  const msg = ["Hola, quiero una tarjeta regalo de Yoga Alcudia:", `Regalo: ${t} (${pr} €)`, `Para: ${to}`, `De parte de: ${from}`].join("\n");
+  window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`, "_blank", "noopener");
+  toast("Abriendo WhatsApp con tu pedido de tarjeta regalo.");
+});
+
+/* Profundidad 3D en tarjetas (solo con ratón y sin movimiento reducido) */
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if(!reduceMotion && window.matchMedia("(hover: hover) and (pointer: fine)").matches){
+  document.querySelectorAll(".tilt").forEach(el=>{
+    el.addEventListener("pointermove", e=>{
+      const r = el.getBoundingClientRect();
+      const x = (e.clientX - r.left)/r.width - .5, y = (e.clientY - r.top)/r.height - .5;
+      el.classList.add("is-tilting");
+      el.style.transform = `perspective(1100px) rotateY(${x*7}deg) rotateX(${-y*7}deg) translateZ(6px)`;
+    });
+    el.addEventListener("pointerleave", ()=>{ el.classList.remove("is-tilting"); el.style.transform = ""; });
+  });
+}
+
+/* ====== Portada: foto real del estudio convertida en escena 3D (WebGL) ======
+   La foto se coloca sobre una malla con relieve (primer plano hacia delante, pared al fondo)
+   y una cámara virtual se mueve con el ratón, el scroll y la inclinación del móvil. */
+(function(){
+  const cv=document.getElementById("photo3d");
+  const gl=cv.getContext("webgl",{antialias:true});
+  if(!gl){ cv.remove(); return; }
+  const SRC='https://i0.wp.com/yogalcudia.com/wp-content/uploads/2020/04/dsc_0070-2.jpg';
+  const small=window.innerWidth<760;
+  const img=new Image(); img.crossOrigin="anonymous";
+  img.src=SRC+"?w="+(small?1600:2600)+"&ssl=1";
+  const VS=`attribute vec2 uv;uniform mat4 mvp;uniform float ia;uniform float dz;varying vec2 vUv;varying float vD;
+    float depth(vec2 q){
+      float floorNear=smoothstep(.55,1.,q.y);              /* suelo: primer plano */
+      float walls=smoothstep(.0,.45,abs(q.x-.6));           /* paredes laterales: más cerca que la esquina */
+      vec2 w=(q-vec2(.07,.62))*vec2(4.,1.6);
+      float teacher=exp(-dot(w,w)*2.);                      /* profesora a la izquierda */
+      return clamp(.1+.5*floorNear+.14*walls+.22*teacher,0.,1.);
+    }
+    void main(){vUv=uv;float d=depth(uv);vD=d;
+      vec3 p=vec3((uv.x-.5)*ia,(.5-uv.y),d*dz);
+      gl_Position=mvp*vec4(p,1.);}`;
+  const FS=`precision mediump float;varying vec2 vUv;varying float vD;uniform sampler2D tx;
+    void main(){
+      vec3 c=texture2D(tx,vUv).rgb;
+      float l=dot(c,vec3(.299,.587,.114));
+      vec3 g=mix(vec3(l),c,.55);                       /* color suavizado, más sereno */
+      g=mix(vec3(.10,.20,.18),vec3(1.,.95,.86),g);      /* sombras verde pino, luces cálidas */
+      g=mix(g,c,.25);
+      g*=.92+.1*vD;
+      gl_FragColor=vec4(g,1.);
+    }`;
+  function sh(t,src){const x=gl.createShader(t);gl.shaderSource(x,src);gl.compileShader(x);if(!gl.getShaderParameter(x,gl.COMPILE_STATUS))throw new Error(gl.getShaderInfoLog(x));return x;}
+  let pr;
+  try{pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,VS));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,FS));gl.linkProgram(pr);}catch(e){cv.remove();return;}
+  gl.useProgram(pr);
+  const NX=small?90:160, NY=small?70:110;
+  const uvs=new Float32Array(NX*NY*2); let k=0;
+  for(let j=0;j<NY;j++)for(let i=0;i<NX;i++){uvs[k++]=i/(NX-1);uvs[k++]=j/(NY-1);}
+  const idx=new Uint16Array((NX-1)*(NY-1)*6); k=0;
+  for(let j=0;j<NY-1;j++)for(let i=0;i<NX-1;i++){const a=j*NX+i,b=a+1,c=a+NX,d=c+1;idx[k++]=a;idx[k++]=c;idx[k++]=b;idx[k++]=b;idx[k++]=c;idx[k++]=d;}
+  const vb=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,vb);gl.bufferData(gl.ARRAY_BUFFER,uvs,gl.STATIC_DRAW);
+  const ib=gl.createBuffer();gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,ib);gl.bufferData(gl.ELEMENT_ARRAY_BUFFER,idx,gl.STATIC_DRAW);
+  const aUv=gl.getAttribLocation(pr,"uv");gl.enableVertexAttribArray(aUv);gl.vertexAttribPointer(aUv,2,gl.FLOAT,false,0,0);
+  const uMvp=gl.getUniformLocation(pr,"mvp"),uIa=gl.getUniformLocation(pr,"ia"),uDz=gl.getUniformLocation(pr,"dz");
+  gl.enable(gl.DEPTH_TEST);
+  /* matrices */
+  function persp(fy,asp,n,f){const t=1/Math.tan(fy/2),nf=1/(n-f);return[t/asp,0,0,0,0,t,0,0,0,0,(f+n)*nf,-1,0,0,2*f*n*nf,0];}
+  function look(e,c){const z=norm(sub(e,c)),x=norm(cross([0,1,0],z)),y=cross(z,x);return[x[0],y[0],z[0],0,x[1],y[1],z[1],0,x[2],y[2],z[2],0,-dot(x,e),-dot(y,e),-dot(z,e),1];}
+  function mul(a,b){const o=new Array(16);for(let i=0;i<4;i++)for(let j=0;j<4;j++){let s=0;for(let k=0;k<4;k++)s+=a[k*4+j]*b[i*4+k];o[i*4+j]=s;}return o;}
+  const sub=(a,b)=>[a[0]-b[0],a[1]-b[1],a[2]-b[2]],dot=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2],cross=(a,b)=>[a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]],norm=a=>{const l=Math.hypot(a[0],a[1],a[2]);return[a[0]/l,a[1]/l,a[2]/l]};
+  let ia=1.5, W=1, H=1;
+  function resize(){const d=Math.min(window.devicePixelRatio||1,2);W=cv.clientWidth;H=cv.clientHeight;cv.width=Math.round(W*d);cv.height=Math.round(H*d);gl.viewport(0,0,cv.width,cv.height);}
+  window.addEventListener("resize",resize);
+  let tx=0,ty=0,mx=0,my=0;
+  window.addEventListener("pointermove",e=>{tx=e.clientX/window.innerWidth-.5;ty=e.clientY/window.innerHeight-.5;},{passive:true});
+  window.addEventListener("deviceorientation",e=>{if(e.gamma==null)return;tx=Math.max(-.5,Math.min(.5,e.gamma/40));ty=Math.max(-.5,Math.min(.5,(e.beta-45)/50));},{passive:true});
+  const FOV=32*Math.PI/180, DZ=.28;
+  function draw(t){
+    mx+=(tx-mx)*.05; my+=(ty-my)*.05;
+    const va=W/H;
+    const mob=va<1; let vis=mob?.7:.86; if(va>ia) vis=.86*ia/va;            /* alto visible: cubre la pantalla con margen */
+    const scroll=Math.min(window.scrollY/Math.max(H,1),1);
+    const dist=(vis/2)/Math.tan(FOV/2)*(1-.12*scroll);  /* al hacer scroll, la cámara se acerca */
+    const maxX=Math.max(0,(ia-vis*va)/2-.17);
+    const focus=(mob? -.05 : -.08)*ia;               /* encuadre centrado en la profesora y los alumnos */
+    const fx=Math.max(-maxX,Math.min(maxX,focus));
+    const sway=reduceMotion?0:Math.sin(t*.00023)*.03;
+    const ox=(reduceMotion?0:mx*.14)+sway, oy=(reduceMotion?0:-my*.09)+(mob? .06 : scroll*.04);
+    const eye=[fx+ox, oy, dist+DZ*.4], at=[fx-ox*.35, -oy*.2, -.35];
+    gl.uniformMatrix4fv(uMvp,false,new Float32Array(mul(persp(FOV,va,.05,20),look(eye,at))));
+    gl.uniform1f(uIa,ia); gl.uniform1f(uDz,DZ);
+    gl.clearColor(.14,.2,.18,1); gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
+    gl.drawElements(gl.TRIANGLES,idx.length,gl.UNSIGNED_SHORT,0);
+  }
+  img.onload=()=>{
+    try{
+      const t=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,t);
+      gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+      gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+      gl.texImage2D(gl.TEXTURE_2D,0,gl.RGB,gl.RGB,gl.UNSIGNED_BYTE,img);
+    }catch(e){ cv.remove(); return; }   /* si el navegador no permite la textura, queda la foto normal de fondo */
+    ia=img.naturalWidth/img.naturalHeight; resize();
+    let raf=0,vis=true;
+    const loop=t=>{draw(t); raf=(vis&&!reduceMotion)?requestAnimationFrame(loop):0;};
+    new IntersectionObserver(es=>{vis=es[0].isIntersecting;if(vis&&!raf)raf=requestAnimationFrame(loop);}).observe(cv);
+    window.addEventListener("resize",()=>{if(reduceMotion)draw(0);});
+    raf=requestAnimationFrame(loop);
+    requestAnimationFrame(()=>cv.classList.add("on"));
+  };
+  img.onerror=()=>cv.remove();
+})();
+
+renderWeek(); renderChosen(); updatePrice();
+</script>
+</body>
+</html>
